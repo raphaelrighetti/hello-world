@@ -3,4 +3,4 @@
 - Leite
 - Ovos
 - Farinha
-- Açúcar
+- Adoçante
