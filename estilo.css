@@ -1,0 +1,42 @@
+/* Formatação da interface */
+
+div#interface {
+    width: auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    padding: 15px;
+    padding-top: 5px;
+}
+
+/* Formatação da foto com legenda */
+
+figure.foto-legenda {
+    position: relative;
+    border: 5px solid#888888;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+    margin: auto;
+}
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height:100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    transition: opacity .5s
+}
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+figure.foto-legenda h1 {
+    font-size: 30pt;
+}
+figure.foto-legenda p {
+    text-indent: 50px;
+}
